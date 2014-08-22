@@ -19,6 +19,12 @@
 		E435C1B719A7B5DD00620F97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E435C19F19A7B5DD00620F97 /* UIKit.framework */; };
 		E435C1BF19A7B5DD00620F97 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E435C1BD19A7B5DD00620F97 /* InfoPlist.strings */; };
 		E435C1C119A7B5DD00620F97 /* CollectionViewLaunchAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E435C1C019A7B5DD00620F97 /* CollectionViewLaunchAnimationTests.m */; };
+		E435C1CD19A7B62D00620F97 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E435C1CB19A7B62D00620F97 /* MainViewController.m */; };
+		E435C1CE19A7B62D00620F97 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E435C1CC19A7B62D00620F97 /* MainViewController.xib */; };
+		E435C1D519A7B6C300620F97 /* MyCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E435C1D419A7B6C300620F97 /* MyCellView.xib */; };
+		E435C1D819A7B71000620F97 /* MyCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E435C1D719A7B71000620F97 /* MyCellView.m */; };
+		E4E74DCF19A7BE06004C246C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4E74DCD19A7BE06004C246C /* DetailViewController.m */; };
+		E4E74DD019A7BE06004C246C /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4E74DCE19A7BE06004C246C /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		E435C1BC19A7B5DD00620F97 /* CollectionViewLaunchAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CollectionViewLaunchAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		E435C1BE19A7B5DD00620F97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E435C1C019A7B5DD00620F97 /* CollectionViewLaunchAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewLaunchAnimationTests.m; sourceTree = "<group>"; };
+		E435C1CA19A7B62D00620F97 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		E435C1CB19A7B62D00620F97 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		E435C1CC19A7B62D00620F97 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		E435C1D419A7B6C300620F97 /* MyCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellView.xib; sourceTree = "<group>"; };
+		E435C1D619A7B71000620F97 /* MyCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellView.h; sourceTree = "<group>"; };
+		E435C1D719A7B71000620F97 /* MyCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellView.m; sourceTree = "<group>"; };
+		E4E74DCC19A7BE06004C246C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E4E74DCD19A7BE06004C246C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E4E74DCE19A7BE06004C246C /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,15 @@
 			children = (
 				E435C1AA19A7B5DD00620F97 /* AppDelegate.h */,
 				E435C1AB19A7B5DD00620F97 /* AppDelegate.m */,
+				E435C1CA19A7B62D00620F97 /* MainViewController.h */,
+				E435C1CB19A7B62D00620F97 /* MainViewController.m */,
+				E435C1CC19A7B62D00620F97 /* MainViewController.xib */,
+				E435C1D619A7B71000620F97 /* MyCellView.h */,
+				E435C1D719A7B71000620F97 /* MyCellView.m */,
+				E435C1D419A7B6C300620F97 /* MyCellView.xib */,
+				E4E74DCC19A7BE06004C246C /* DetailViewController.h */,
+				E4E74DCD19A7BE06004C246C /* DetailViewController.m */,
+				E4E74DCE19A7BE06004C246C /* DetailViewController.xib */,
 				E435C1AD19A7B5DD00620F97 /* Images.xcassets */,
 				E435C1A219A7B5DD00620F97 /* Supporting Files */,
 			);
@@ -219,7 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E435C1D519A7B6C300620F97 /* MyCellView.xib in Resources */,
 				E435C1A619A7B5DD00620F97 /* InfoPlist.strings in Resources */,
+				E4E74DD019A7BE06004C246C /* DetailViewController.xib in Resources */,
+				E435C1CE19A7B62D00620F97 /* MainViewController.xib in Resources */,
 				E435C1AE19A7B5DD00620F97 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4E74DCF19A7BE06004C246C /* DetailViewController.m in Sources */,
+				E435C1D819A7B71000620F97 /* MyCellView.m in Sources */,
 				E435C1AC19A7B5DD00620F97 /* AppDelegate.m in Sources */,
+				E435C1CD19A7B62D00620F97 /* MainViewController.m in Sources */,
 				E435C1A819A7B5DD00620F97 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +467,7 @@
 				E435C1C619A7B5DD00620F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E435C1C719A7B5DD00620F97 /* Build configuration list for PBXNativeTarget "CollectionViewLaunchAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +476,7 @@
 				E435C1C919A7B5DD00620F97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
